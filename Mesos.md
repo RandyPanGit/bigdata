@@ -19,6 +19,15 @@ http://dockone.io/article/686
 
 ![](http://mesos.apache.org/assets/img/documentation/architecture-example.jpg)
 
+    - Slave 1向Master汇报其空闲资源：4个CPU、4GB内存。然后，Master触发分配策略模块，得到的反馈是Framework 1要请求全部可用资源。
+    - Master向Framework 1发送资源邀约，描述了Slave 1上的可用资源。
+    - Framework的调度器（Scheduler）响应Master，需要在Slave上运行两个任务，第一个任务分配<2 CPUs, 1 GB RAM>资源，第二个任务分配<1 CPUs, 2 GB RAM>资源。
+    - 最后，Master向Slave下发任务，分配适当的资源给Framework的任务执行器（Executor）,接下来由执行器启动这两个任务（如图中虚线框所示）。 此时，还有1个CPU和1GB的RAM尚未分配，因此分配模块可以将这些资源供给Framework 2。
+    
+## Mesos Installation
 
+http://mesos.apache.org/gettingstarted/
+
+## Example
 
 
