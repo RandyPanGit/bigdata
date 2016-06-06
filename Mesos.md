@@ -40,7 +40,7 @@ http://dockone.io/article/686
 >**Note**:Mesos之後1.0版本Slave改為Agent,因此0.28版本啟動指令為./bin/mesos-slave.sh --master=master_ip:5050
 
 管理介面:http://master_ip:5050
-[]()
+![](https://goo.gl/RsH7vz)
 
 ### Slave NODE
 
@@ -53,4 +53,11 @@ http://dockone.io/article/686
     
 使用VirtualBox再製功能複製master vm,並修改IP跟hostname </br>
 依照[此篇文章進行](http://blog.csdn.net/u014729236/article/details/46426185)mesos cluster設定
+
+>**Note**:不要使用文章中的./mesos-start-cluster.sh啟動環境
+>**Note**:master啟動指令:./bin/mesos-master.sh --ip=master_ip --work_dir=/var/lib/mesos
+>**Note**:slave啟動指令(在slave node中啟動):./bin/mesos-agent.sh --master=master_ip:5050
+
+管理介面會看到slave可用資源:http://master_ip:5050
+
 
