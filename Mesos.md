@@ -26,8 +26,31 @@ http://dockone.io/article/686
     
 ## Mesos Installation
 
-http://mesos.apache.org/gettingstarted/
+### Master NODE
 
-## Example
+    - OS:Ubuntu-14.04
+    - Java:Open-JDK-1.7.0_101
+    - Mesos-0.28
+    - VirtualBox 5.0.20
+    - master_ip = 10.10.10.11
+    - hostname:master
+    
+依照[官網安裝](http://mesos.apache.org/gettingstarted/)步驟進行安裝
 
+>**Note**:Mesos之後1.0版本Slave改為Agent,因此0.28版本啟動指令為./bin/mesos-slave.sh --master=master_ip:5050
+
+管理介面:http://master_ip:5050
+[]()
+
+### Slave NODE
+
+    - OS:Ubuntu-14.04
+    - Java:Open-JDK-1.7.0_101
+    - Mesos-0.28
+    - VirtualBox 5.0.20
+    - master_ip = 10.10.10.13
+    - hostname:slave
+    
+使用VirtualBox再製功能複製master vm,並修改IP跟hostname </br>
+依照[此篇文章進行](http://blog.csdn.net/u014729236/article/details/46426185)mesos cluster設定
 
