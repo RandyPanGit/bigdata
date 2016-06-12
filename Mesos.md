@@ -60,6 +60,6 @@ http://dockone.io/article/686
 
 管理介面會看到slave可用資源:http://master_ip:5050
 
-![](https://goo.gl/7ismxG)
+![](https://goo.gl/ekmGUI)
 
 
