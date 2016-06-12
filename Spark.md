@@ -39,4 +39,4 @@ Spark可搭配叢集管理系統及分散式儲存使用
 
 完成安裝後可在mesos管理介面看到Framework頁面看到相關資訊
 
-![](https://goo.gl/1Yl3ow)
+![](https://goo.gl/qFbDWg)
