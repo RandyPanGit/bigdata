@@ -1,5 +1,21 @@
 # Spark Intrdution
 
+Spark是叢集運算系統，使用了記憶體內運算技術，能在資料尚未寫入硬碟時即在記憶體內分析運算。
+
+Spark可搭配叢集管理系統及分散式儲存使用
+
+叢集管理系統:
+
+    - Hadoop YARN
+    - Apache Mesos
+分散式儲存:
+
+    - HDFS
+    - Cassandra
+    - OpenStack Swift
+    - Amazon S3
+    
+
 # Spark Install
 
     - OS:Ubuntu-14.04
