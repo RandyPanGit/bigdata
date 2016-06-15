@@ -15,6 +15,13 @@ Spark可搭配叢集管理系統及分散式儲存使用
     - OpenStack Swift
     - Amazon S3
     
+### Resilient Distributed Dataset (RDD)
+
+Spark 核心概念是 Resilient Distributed Dataset (RDD) ，是由AMPLab實驗室所提出的概念，類似一種分散式的記憶體。而且，RDD是一種可跨群集（cluster）被使用、可儲存於主記憶體中的immutable的物件集合。是一個容錯的，並行的資料結構。
+
+Spark 支援任何一個 Hadoop 的文件系統建立分布式資料集，例如，HDFS，Cassandra，HBase，Amazon S3等。此外， Spark 也支援文字文件(text files)，SequenceFiles 和其他 Hadoop InputFormat。
+
+
 
 # Spark Install
 
