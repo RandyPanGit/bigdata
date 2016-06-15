@@ -21,6 +21,15 @@ Spark 核心概念是 Resilient Distributed Dataset (RDD) ，是由AMPLab實驗�
 
 Spark 支援任何一個 Hadoop 的文件系統建立分布式資料集，例如，HDFS，Cassandra，HBase，Amazon S3等。此外， Spark 也支援文字文件(text files)，SequenceFiles 和其他 Hadoop InputFormat。
 
+RDD共有兩種操作:
+
+- Transformation
+
+        其操作結果為新的RDD，意即其作用在於將RDD再轉換生成另一個RDD。
+- Action
+
+        在RDD之上進行計算之後，將其結果返回 Spark 的驅動程序，或寫至檔案系統。
+
 
 
 # Spark Install
