@@ -62,6 +62,6 @@ http://dockone.io/article/686
 
 管理介面會看到slave可用資源:http://master_ip:5050
 
-![](pic/Mesos2.png)
+![](pic/Mesos1.png)
 
 
