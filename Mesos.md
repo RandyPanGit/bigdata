@@ -55,11 +55,13 @@ http://dockone.io/article/686
 依照[此篇文章進行](http://blog.csdn.net/u014729236/article/details/46426185)mesos cluster設定
 
 >**Note**:不要使用文章中的./mesos-start-cluster.sh啟動環境
+
 >**Note**:master啟動指令:./bin/mesos-master.sh --ip=master_ip --work_dir=/var/lib/mesos
+
 >**Note**:slave啟動指令(在slave node中啟動):./bin/mesos-agent.sh --master=master_ip:5050
 
 管理介面會看到slave可用資源:http://master_ip:5050
 
-![](https://goo.gl/ekmGUI)
+![](pic/Mesos2.png)
 
 
