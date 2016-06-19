@@ -55,4 +55,4 @@ RDD共有兩種操作:
 
 完成安裝後可在mesos管理介面看到Framework頁面看到相關資訊
 
-![](https://goo.gl/qFbDWg)
+![](pic/Mesos2.png)
