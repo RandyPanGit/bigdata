@@ -40,7 +40,7 @@ http://dockone.io/article/686
 >**Note**:Mesos之後1.0版本Slave改為Agent,因此0.28版本啟動指令為./bin/mesos-slave.sh --master=master_ip:5050
 
 管理介面:http://master_ip:5050
-![](https://goo.gl/VvE6nG)
+![](pic/Mesos.png)
 
 ### Slave NODE
 
